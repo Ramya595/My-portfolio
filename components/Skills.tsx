@@ -12,15 +12,15 @@ const skillCategories: SkillCategory[] = [
     icon: <Code className="h-6 w-6" />,
     title: "Frontend Development",
     skills: [
-      "React",
-      "Next.js",
-      "JavaScript (ES6+)",
-      "TypeScript",
-      "Redux",
-      "Context API",
       "HTML5",
       "CSS3",
+      "React",
       "Tailwind CSS",
+      "Next.js",
+      "Redux",
+      "JavaScript (ES6+)",
+      "TypeScript",      
+      "Context API",        
       "Material-UI",
       "Figma",
       "Accessibility (a11y)",
@@ -93,20 +93,63 @@ const skillCategories: SkillCategory[] = [
 
 const SkillsSection: React.FC = () => {
   return (
-    <section id="skills" className="py-16">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-center text-foreground mb-12">Skills</h2>
+    <section id="skills" className="py-16 px-4">
+      {/* Reduced left & right gap */}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-8 md:mx-16 lg:mx-24">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-3xl font-bold text-center text-foreground mb-12">
+          Skills
+        </h2>
+
+        <div
+          className="
+            grid 
+            grid-cols-1 
+            md:grid-cols-2 
+            lg:grid-cols-3 
+            gap-8 
+            mx-2 
+            md:mx-6 
+            lg:mx-10
+          "
+        >
           {skillCategories.map((category, index) => (
-            <div key={index} className="border rounded-2xl p-5 hover:shadow-lg transition">
+            <div
+              key={index}
+              className="
+                border 
+                rounded-2xl 
+                p-6 
+                hover:shadow-xl 
+                transition 
+                bg-white 
+              "
+            >
               <div className="flex items-center gap-3 pb-2">
                 <div className="p-3 rounded-xl bg-gray-50">{category.icon}</div>
-                <h3 className="text-lg font-semibold">{category.title}</h3>
+                <h3 className="text-lg font-semibold text-foreground">
+                  {category.title}
+                </h3>
               </div>
+
               <div className="flex flex-wrap gap-2 mt-3">
                 {category.skills.map((skill, i) => (
-                  <span key={i} className="bg-gray-100 px-3 py-1.5 rounded text-xs">{skill}</span>
+                  <span
+                    key={i}
+                    className="
+                      bg-gray-200 
+                      text-foreground 
+                      px-3 
+                      py-1.5 
+                      rounded 
+                      text-sm 
+                      font-medium 
+                      hover:bg-gray-300 
+                      transition
+                    "
+                  >
+                    {skill}
+                  </span>
                 ))}
               </div>
             </div>

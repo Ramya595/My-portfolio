@@ -3,11 +3,34 @@
 @tailwind utilities;
 
 html {
-  scroll-behavior: smooth;
+  font-size: 18px;
 }
 
-html, body, #__next {
-  height: 100%;
+@layer base {
+  html {
+    font-size: 17px; /* ✅ Slightly larger global font */
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: #0d1321; 
+    font-weight: 450; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  p {
+    color: #1a1f2e; 
+    line-height: 1.75; 
+  }
+
+  h1, h2, h3, h4, h5 {
+    color: #0b1120; 
+    font-weight: 700;
+  }
 }
 
 :root {
@@ -16,13 +39,4 @@ html, body, #__next {
   --muted: #64748b;
   --secondary: #eef2ff;
   --card: #ffffff;
-}
-
-body {
-  margin: 0;            /* ✅ Remove top gap */
-  padding: 0;           /* ✅ Ensure no padding */
-  background: var(--bg);
-  color: var(--foreground);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }

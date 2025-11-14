@@ -36,21 +36,37 @@ const projects: Project[] = [
 
 const ProjectsSection: React.FC = () => {
   return (
-    <section id="projects" className="py-16 px-6 bg-secondary/30">
+    <section id="projects" className="py-16 px-4 bg-secondary/30">
       <div className="max-w-6xl mx-auto">
+
         <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">
           Projects
         </h2>
 
-        {/* Horizontal scroll */}
-        <div className="flex gap-6 overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-gray-400">
+        {/* Centered horizontal scroll container */}
+        <div
+          className="
+            flex flex-nowrap gap-8 
+            justify-center
+            overflow-x-auto
+            pb-4
+            mx-auto
+            scrollbar-thin scrollbar-thumb-gray-400
+            max-w-full
+          "
+        >
           {projects.map((project, index) => (
             <div
               key={index}
-              className="min-w-[300px] max-w-[300px] rounded-2xl border p-6 hover:shadow-xl transition bg-white"
+              className="
+                min-w-[340px] max-w-[340px]
+                rounded-2xl border p-6
+                hover:shadow-xl transition bg-white
+              "
             >
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-              <p className="text-gray-600 mb-3">
+
+              <p className="text-gray-700 leading-relaxed mb-3">
                 {project.description}
                 <br />
                 <span className="font-medium text-foreground mt-2 block">
@@ -68,6 +84,7 @@ const ProjectsSection: React.FC = () => {
                   </span>
                 ))}
               </div>
+
             </div>
           ))}
         </div>
