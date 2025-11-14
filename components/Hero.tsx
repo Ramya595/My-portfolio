@@ -4,9 +4,9 @@ const Hero: React.FC = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center px-6 pt-1"
+      className="min-h-screen flex items-center justify-center px-6 pt-0"
     >
-      <div className="max-w-3xl mx-auto text-center animate-fade-in py-2">
+      <div className="max-w-3xl mx-auto text-center animate-fade-in py-1">
         
         <h1 className="text-5xl md:text-6xl font-bold mb-4">
           Ramya Latha
