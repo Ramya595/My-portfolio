@@ -16,7 +16,7 @@ export default function Home() {
       <Skills />
       <Contact />
       <footer className="text-center py-8 text-sm text-muted-foreground">
-        © {new Date().getFullYear()} Your Name — Built with Next.js & Tailwind
+        © {new Date().getFullYear()} Ramya Latha — Built with Next.js & Tailwind
       </footer>
     </>
   );
