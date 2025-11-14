@@ -93,7 +93,7 @@ const skillCategories: SkillCategory[] = [
 
 const SkillsSection: React.FC = () => {
   return (
-    <section id="skills" className="py-24">
+    <section id="skills" className="py-16">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-foreground mb-12">Skills</h2>
 

@@ -4,11 +4,11 @@ const Hero: React.FC = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center px-6 pt-0"
+      className="min-h-screen flex items-center justify-center px-6 pt-5"
     >
-      <div className="max-w-3xl mx-auto text-center animate-fade-in py-1">
+      <div className="max-w-3xl mx-auto text-center animate-fade-in">
         
-        <h1 className="text-5xl md:text-6xl font-bold mb-4">
+        <h1 className="text-5xl md:text-6xl font-bold mb-4 mt-0">
           Ramya Latha
           <span className="block text-2xl md:text-3xl text-gray-600 mt-2 font-medium">
             Full Stack Engineer
@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="#contact"
-            className="w-full sm:w-auto inline-block text-center px-8 py-3 rounded-full border border-gray-300 hover:bg-gray-100 transition"
+            className="w-full sm:w-auto inline-block text-center px-8 py-3 rounded-full border border-gray-300 hover:bg-gray-100 transition font-bold"
           >
             Get in Touch
           </a>

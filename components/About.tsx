@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutSection: React.FC = () => {
   return (
-    <section id="about" className="py-24 px-6 bg-secondary/30">
+    <section id="about" className="py-16 px-6 bg-secondary/30">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">About</h2>
 

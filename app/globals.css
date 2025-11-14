@@ -19,6 +19,8 @@ html, body, #__next {
 }
 
 body {
+  margin: 0;            /* ✅ Remove top gap */
+  padding: 0;           /* ✅ Ensure no padding */
   background: var(--bg);
   color: var(--foreground);
   -webkit-font-smoothing: antialiased;
