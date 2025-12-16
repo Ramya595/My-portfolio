@@ -16,15 +16,11 @@ const skillCategories: SkillCategory[] = [
       "CSS3",
       "React",
       "Tailwind CSS",
-      "Next.js",
       "Redux",
       "JavaScript (ES6+)",
-      "TypeScript",      
-      "Context API",        
+      "TypeScript",
       "Material-UI",
       "Figma",
-      "Accessibility (a11y)",
-      "Lighthouse",
     ],
   },
   {
@@ -36,9 +32,6 @@ const skillCategories: SkillCategory[] = [
       "Node.js",
       "Express.js",
       "RESTful APIs",
-      "Microservices Architecture",
-      "JWT",
-      "OAuth",
     ],
   },
   {
@@ -48,8 +41,6 @@ const skillCategories: SkillCategory[] = [
       "MySQL",
       "PostgreSQL",
       "MongoDB",
-      "SQL Query Optimization",
-      "Database Migration",
     ],
   },
   {
@@ -57,11 +48,8 @@ const skillCategories: SkillCategory[] = [
     title: "Testing",
     skills: [
       "Jest",
-      "Cypress (E2E)",
       "React Testing Library",
       "Pytest",
-      "Mocha",
-      "TDD",
     ],
   },
   {
@@ -69,10 +57,8 @@ const skillCategories: SkillCategory[] = [
     title: "DevOps & Cloud",
     skills: [
       "Git",
-      "GitHub/GitLab Actions",
+      "GitHub",
       "Docker",
-      "CI/CD",
-      "NGINX",
       "AWS (EC2, S3)",
     ],
   },
@@ -82,11 +68,6 @@ const skillCategories: SkillCategory[] = [
     skills: [
       "Agile & Scrum",
       "Jira",
-      "Slack",
-      "Requirements Gathering",
-      "System Design",
-      "Performance Optimization",
-      "WebSockets",
     ],
   },
 ];

@@ -8,33 +8,35 @@ const AboutSection: React.FC = () => {
 
         <div className="space-y-6 text-lg md:text-xl text-gray-600 leading-relaxed">
           <p>
-            I’m a <span className="text-foreground font-medium">results-driven Full Stack Engineer</span> with 4.2 years of experience in designing, developing, and deploying high-performance web applications.
+            I’m a passionate<span className="text-foreground font-medium">Full-Stack Developer</span> with hands-on experience in building modern, scalable, and user-friendly web applications, specializing in responsive front-end interfaces and robust back-end systems.
           </p>
 
           <p>
-            Passionate about modern web technologies, I specialize in <span className="text-foreground font-medium">React, Next.js, Node.js, and FastAPI</span>, crafting scalable architectures that deliver seamless user experiences.
+            On the front end, I work with <span className="text-foreground font-medium">HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React, and Redux</span>, to create clean, interactive, and performance-optimized user experiences
           </p>
 
           <p>
-            I thrive on building clean, efficient, and maintainable solutions, integrating <span className="text-foreground font-medium">CI/CD automation</span>, and deploying production-ready systems on the cloud.
+            On the back end, I build secure and efficient APIs using <span className="text-foreground font-medium">Python (FastAPI) and Node.js with Express,</span> following RESTful architecture and best practices.
           </p>
 
           <p>
-            My approach combines creativity, technical precision, and a growth mindset — enabling me to transform ideas into impactful digital products that drive innovation and business success.
+            I have experience with both <span className="text-foreground font-medium">relational and NoSQL databases,</span> including <span className="text-foreground font-medium"> MySQL, PostgreSQL, and MongoDB,</span> and I understand how to design, query, and optimize databases for real-world applications.
           </p>
+
+          <p>
+            I enjoy solving problems, learning new technologies, and continuously improving my skills. My goal is to contribute to impactful projects, grow as a developer, and build software that delivers real value to users.
+          </p>        
         </div>
 
         <div className="flex flex-wrap gap-3 mt-10">
           {[
             "React",
-            "Next.js",
             "Node.js",
             "FastAPI",
             "TypeScript",
             "Docker",
             "AWS",
             "PostgreSQL",
-            "CI/CD",
           ].map((tech) => (
             <span
               key={tech}

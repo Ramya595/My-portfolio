@@ -11,25 +11,25 @@ const projects: Project[] = [
   {
     title: "OmniCommerce SaaS Platform",
     description:
-      "Designed and developed a scalable multi-tenant B2B SaaS app with modular architecture, real-time updates, and secure APIs using Next.js and FastAPI.",
+      "Worked on the design and development of a B2B SaaS platform using React for the frontend and FastAPI for the backend. Gained hands-on knowledge of PostgreSQL for database management and Docker for containerization.",
     result:
-      "Improved user retention by 30% and reduced bugs by 40% via automated CI/CD pipelines.",
-    technologies: ["Next.js", "FastAPI", "PostgreSQL", "Docker"],
+      "Contributed to building reusable frontend components, implementing API endpoints, and supporting the overall development process. Learned basic concepts of real-time features and deployment pipelines. ",
+    technologies: ["React", "FastAPI", "PostgreSQL", "Docker"],
   },
   {
     title: "Integrated Health Portal",
     description:
-      "Built a secure patient-provider portal with role-based access, automated notifications, and optimized backend APIs for <200ms response time.",
+      "Worked on building a secure portal for patient-provider scheduling, messaging, and notifications using FastAPI for the backend. Gained hands-on knowledge of PostgreSQL for database management and AWS EC2 for hosting and deployment.",
     result:
-      "Achieved 99.9% uptime and improved user engagement through accessibility-focused design.",
-    technologies: ["Next.js", "FastAPI", "AWS", "PostgreSQL"],
+      "Contributed to implementing API endpoints, protected routes, and calendar integrations. Learned how to optimize backend performance and support a smooth user experience under high traffic.",
+    technologies: ["FastAPI", "AWS", "PostgreSQL"],
   },
   {
     title: "Next-Gen Job Board",
     description:
-      "Developed a dynamic job platform with advanced search, employer dashboards, and efficient caching using Node.js and PostgreSQL.",
+      "Worked on a job search platform using React for the frontend and Node.js/Express for the backend. Used PostgreSQL for storing and managing data.",
     result:
-      "Reduced response time by 50% and ensured 99.95% system uptime with automated testing.",
+      "Helped build dashboards for employers and job seekers, added real-time job listings, and implemented search and filtering features. Learned how to make the database and platform work faster and smoother.",
     technologies: ["React", "Node.js", "Express", "PostgreSQL"],
   },
 ];
@@ -70,7 +70,7 @@ const ProjectsSection: React.FC = () => {
                 {project.description}
                 <br />
                 <span className="font-medium text-foreground mt-2 block">
-                  🎯 <strong>Result:</strong> {project.result}
+                  {project.result}
                 </span>
               </p>
 

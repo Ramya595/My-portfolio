@@ -1,5 +1,5 @@
 import React from "react";
-import { Code, Server, Database, Wrench, CheckCircle2, Users, Briefcase } from "lucide-react";
+import { Code, Server, Database, Wrench, CheckCircle2, Briefcase } from "lucide-react";
 
 type ExperienceItem = {
   icon: any;
@@ -12,44 +12,37 @@ const experienceItems: ExperienceItem[] = [
   {
     icon: Code,
     color: "text-blue-500",
-    title: "Full-Stack Development",
+    title: "Frontend Development",
     description:
-      "Built end-to-end web applications using React, Next.js, Node.js, and FastAPI — handling the complete lifecycle from concept to deployment.",
+      "Experienced in creating responsive, reusable UI components and clean layouts using React, TypeScript, Redux, Tailwind CSS, Material-UI, and modern JavaScript practices. Comfortable converting Figma designs into user-friendly interfaces.",
   },
   {
     icon: Server,
     color: "text-green-500",
     title: "Backend & APIs",
     description:
-      "Engineered RESTful APIs and microservices with JWT and OAuth 2.0 authentication for secure, scalable backend systems.",
+      "Good understanding of building APIs and backend logic using FastAPI, Node.js and Express.js. Familiar with designing RESTful endpoints and working with real-world backend workflows.",
   },
   {
     icon: Database,
     color: "text-orange-500",
-    title: "Database Optimization",
+    title: "Database Knowledge",
     description:
-      "Migrated monolithic systems to microservices, optimized SQL queries, and reduced latency by 20%.",
-  },
-  {
-    icon: Wrench,
-    color: "text-purple-500",
-    title: "CI/CD & DevOps",
-    description:
-      "Automated Dockerized CI/CD pipelines using Jenkins and GitLab CI, reducing deployment times by 50%.",
+      "Skilled in working with relational and NoSQL databases, including MySQL, PostgreSQL and MongoDB.Comfortable writing queries and understanding database structure and functionality.",
   },
   {
     icon: CheckCircle2,
     color: "text-emerald-500",
-    title: "Quality Assurance",
+    title: "Testing Fundamentals",
     description:
-      "Implemented automated testing (Jest, Cypress, Pytest) achieving over 90% code coverage and 40% fewer post-release bugs.",
+      "Familiar with basic testing concepts and tools such as Jest, React Testing Library and Pytest. Able to write simple tests to validate UI components and backend logic.",
   },
   {
-    icon: Users,
-    color: "text-pink-500",
-    title: "Collaboration & Leadership",
+    icon: Wrench,
+    color: "text-purple-500",
+    title: "Deployment & DevOps Basics",
     description:
-      "Led requirement sessions, designed Figma prototypes, and collaborated cross-functionally with teams to deliver on time.",
+      " Knowledgeable about Git, Docker, GitHub Actions, CI/CD concepts, and cloud platforms like AWS (EC2, S3) and Vercel. Understanding of how modern applications are deployed and managed in production environments.",
   },
 ];
 
@@ -73,9 +66,7 @@ const ExperienceCard: React.FC = () => {
           </div>
 
           <p className="text-gray-600 mb-6">
-            Designed and developed 10+ scalable web applications using modern
-            technologies, focusing on clean architecture, performance, and
-            deployment excellence.
+            Built scalable full-stack web applications with a strong focus on frontend and backend development, using React, TypeScript, Node.js, and FastAPI to deliver responsive UIs and robust APIs.
           </p>
 
           <ul className="space-y-4 text-gray-700">
