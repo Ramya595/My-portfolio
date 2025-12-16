@@ -11,9 +11,9 @@ const projects: Project[] = [
   {
     title: "OmniCommerce SaaS Platform",
     description:
-      "Worked on the design and development of a B2B SaaS platform using React for the frontend and FastAPI for the backend. Gained hands-on knowledge of PostgreSQL for database management and Docker for containerization.",
+      "Worked on the design and development of a B2B SaaS platform using React for the frontend and FastAPI for the backend. Gained hands-on experience with PostgreSQL for database management and Docker for containerization.",
     result:
-      "Contributed to building reusable frontend components, implementing API endpoints, and supporting the overall development process. Learned basic concepts of real-time features and deployment pipelines. ",
+      "Contributed to reusable UI components, API endpoint implementation, and supported core development tasks, with exposure to real-time features and deployment pipelines.",
     technologies: ["React", "FastAPI", "PostgreSQL", "Docker"],
   },
   {
@@ -59,7 +59,7 @@ const ProjectsSection: React.FC = () => {
             <div
               key={index}
               className="
-                min-w-[340px] max-w-[340px]
+                min-w-[340px] max-w-[380px]
                 rounded-2xl border p-6
                 hover:shadow-xl transition bg-white
               "
