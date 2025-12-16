@@ -11,8 +11,8 @@ A professional **Full Stack Developer portfolio** built with **Next.js 13**, **T
 
 ## 🧰 Technologies Used
 
-- **Frontend:** React, Next.js, Tailwind CSS  
-- **Backend:** Node.js, Next.js API routes  
+- **Frontend:** React, TypeScript, Tailwind CSS  
+- **Backend:** Node.js, API routes  
 - **Database / APIs:** N/A (contact form uses Nodemailer)  
 - **Email:** Nodemailer (SMTP with Gmail App Password)  
 - **Deployment:** Vercel  
