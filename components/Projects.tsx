@@ -59,7 +59,7 @@ const ProjectsSection: React.FC = () => {
             <div
               key={index}
               className="
-                min-w-[340px] max-w-[380px]
+                min-w-[340px] max-w-[340px]
                 rounded-2xl border p-6
                 hover:shadow-xl transition bg-white
               "
