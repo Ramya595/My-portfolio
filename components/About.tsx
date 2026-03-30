@@ -16,11 +16,11 @@ const AboutSection: React.FC = () => {
           </p>
 
           <p>
-            On the back end, I build secure and efficient APIs using <span className="text-foreground font-medium">Python (FastAPI) and Node.js with Express,</span> following RESTful architecture and best practices.
+            On the back end, I build secure and efficient APIs using <span className="text-foreground font-medium">Python (FastAPI)</span> following RESTful architecture and best practices.
           </p>
 
           <p>
-            I have experience with both <span className="text-foreground font-medium">relational and NoSQL databases,</span> including <span className="text-foreground font-medium"> MySQL, PostgreSQL, and MongoDB,</span> and I understand how to design, query, and optimize databases for real-world applications.
+            I have experience with both <span className="text-foreground font-medium">relational databases,</span> including <span className="text-foreground font-medium"> MySQL, PostgreSQL</span> and I understand how to design, query, and optimize databases for real-world applications.
           </p>
 
           <p>
@@ -31,11 +31,10 @@ const AboutSection: React.FC = () => {
         <div className="flex flex-wrap gap-3 mt-10">
           {[
             "React",
-            "Node.js",
-            "FastAPI",
+            "Javascript",
             "TypeScript",
-            "Docker",
-            "AWS",
+            "Python",
+            "FastAPI",
             "PostgreSQL",
           ].map((tech) => (
             <span

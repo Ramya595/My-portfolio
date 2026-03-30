@@ -16,8 +16,7 @@ const Hero: React.FC = () => {
         </h1>
 
         <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-8 leading-relaxed">
-          Full Stack Developer passionate about crafting intuitive UIs and efficient APIs using React,
-          Node.js, and FastAPI — delivering secure, scalable, and performant solutions.
+         Full Stack Developer passionate about crafting intuitive user interfaces and efficient APIs using React, JavaScript, and Python (FastAPI) — delivering scalable, high-performance, and user-focused web applications.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

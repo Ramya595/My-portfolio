@@ -21,14 +21,14 @@ const experienceItems: ExperienceItem[] = [
     color: "text-green-500",
     title: "Backend & APIs",
     description:
-      "Good understanding of building APIs and backend logic using FastAPI, Node.js and Express.js. Familiar with designing RESTful endpoints and working with real-world backend workflows.",
+      "Good understanding of building APIs and backend logic using FastAPI. Familiar with designing RESTful endpoints and working with real-world backend workflows.",
   },
   {
     icon: Database,
     color: "text-orange-500",
     title: "Database Knowledge",
     description:
-      "Skilled in working with relational and NoSQL databases, including MySQL, PostgreSQL and MongoDB.Comfortable writing queries and understanding database structure and functionality.",
+      "Skilled in working with relational databases includes MySQL, PostgreSQL.Comfortable writing queries and understanding database structure and functionality.",
   },
   {
     icon: CheckCircle2,
@@ -42,7 +42,7 @@ const experienceItems: ExperienceItem[] = [
     color: "text-purple-500",
     title: "Deployment & DevOps Basics",
     description:
-      " Knowledgeable about Git, Docker, GitHub Actions, CI/CD concepts, and cloud platforms like AWS (EC2, S3) and Vercel. Understanding of how modern applications are deployed and managed in production environments.",
+      " Knowledgeable about Git, GitHub Actions, and cloud platforms like AWS (EC2, S3) and Vercel. Understanding of how modern applications are deployed and managed in production environments.",
   },
 ];
 
@@ -66,7 +66,7 @@ const ExperienceCard: React.FC = () => {
           </div>
 
           <p className="text-gray-600 mb-6">
-            Built scalable full-stack web applications with a strong focus on frontend and backend development, using React, TypeScript, Node.js, and FastAPI to deliver responsive UIs and robust APIs.
+            Built scalable full-stack web applications with a strong focus on frontend and backend development, using React, TypeScript and FastAPI to deliver responsive UIs and robust APIs.
           </p>
 
           <ul className="space-y-4 text-gray-700">

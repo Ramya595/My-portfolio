@@ -27,10 +27,10 @@ const projects: Project[] = [
   {
     title: "Next-Gen Job Board",
     description:
-      "Worked on a job search platform using React for the frontend and Node.js/Express for the backend. Used PostgreSQL for storing and managing data.",
+      "Worked on a job search platform using React for the frontend and FastAPI for the backend. Used PostgreSQL for storing and managing data.",
     result:
       "Helped build dashboards for employers and job seekers, added real-time job listings, and implemented search and filtering features. Learned how to make the database and platform work faster and smoother.",
-    technologies: ["React", "Node.js", "Express", "PostgreSQL"],
+    technologies: ["React", "FastAPI", "PostgreSQL"],
   },
 ];
 

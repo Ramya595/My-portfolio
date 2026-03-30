@@ -29,8 +29,6 @@ const skillCategories: SkillCategory[] = [
     skills: [
       "Python",
       "FastAPI",
-      "Node.js",
-      "Express.js",
       "RESTful APIs",
     ],
   },
@@ -40,7 +38,6 @@ const skillCategories: SkillCategory[] = [
     skills: [
       "MySQL",
       "PostgreSQL",
-      "MongoDB",
     ],
   },
   {
